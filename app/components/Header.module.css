@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: end;
+    width: 1300px;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.header ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header ul li {
+    color: white;
+
+}
+
+.header  button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(212, 0, 0, 1);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: white;
+}

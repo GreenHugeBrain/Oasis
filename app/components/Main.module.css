@@ -1,0 +1,41 @@
+.main{
+    display: grid;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.h1{
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button:first-child{
+    background-color: rgba(212, 0, 0, 1);
+    color: white;
+    border: none;
+}
+
+.buttons button{
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #313036;
+    font-weight: bold;
+    border: 2px solid rgb(86, 86, 86);
+    cursor: pointer;
+}
+
+.h1 span{
+    color: #F3573B;
+}
